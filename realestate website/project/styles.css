@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F9F9F9;
+
+}
+nav{
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px;
+}
+.title{
+    font-size:32px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight:600;
+}
+a{
+    text-align: center;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+a:hover{
+    transform:scale(1.2)
+}
+
+.nav-items a  {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    padding: 12px;
+    background-color:#30475E;
+    border-radius:16px;
+    width: 90px;
+}
+.login-items a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    padding: 12px;
+    background-color:#F05454;
+    border-radius:16px;
+
+}
+
+.section2{
+    padding: 8% 4%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./r-architecture-2gDwlIim3Uw-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+select{
+    margin: 16px;
+    width: 200px !important;
+}
+
+
+.property-gallery{
+    padding:7%;
+
+}
+.property-gallery .title{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    bottom: 54px;
+    font-size:32px
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    border-radius:16px;
+    box-shadow: 4px 6px 18px 3px rgba(0,0,0,0.4);
+}
+.image{
+    height:220px;
+    width: 320px;
+    background-size: cover;
+    background-position: center center;
+    border-radius:16px 16px 0 0
+
+}
+.data{
+    padding:2%;
+    text-align: center;
+}
+p{
+    margin: 12px;
+    font-size: 18px;
+    margin-bottom:0 !important;
+
+}
+.card button{
+    margin-bottom: 2%;
+}
+
+.feedback{
+    padding:7%;
+    background-color: white;
+}
+
+.feedback h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size:32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.feedback-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:60px
+}
+.box{
+    height:120px;
+    width: 180px;
+    text-align: center;
+    padding:16px;
+    background-color: white;
+    border-radius:16px;
+    box-shadow: 4px 6px 18px 3px rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.box:hover{
+    transform:scale(1.1)
+}
+.box i{
+    font-size: 32px;
+}
+
+.footer{
+    text-align: center;
+    padding: 8px 0;
+    background-color:#30475E;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+
+}
